@@ -57,6 +57,8 @@ import email2 from "../assets/email2.gif"
 import wpNEW from "../assets/wpNEW.jpg"
 import bgHex from "../assets/bgHex.png"
 import bgCCC from "../assets/bgCCC.png"
+import avatar1 from "../assets/avatar1.png"
+import avatar1_nb from "../assets/avatar1_nb.png"
 
 
 
@@ -115,5 +117,6 @@ export default {
   wpNEW,
   bgHex,
   bgCCC,
-
+  avatar1,
+  avatar1_nb,
 };
