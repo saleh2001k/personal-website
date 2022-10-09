@@ -4,7 +4,7 @@ import { SiUpwork } from 'react-icons/si';
 
 const SocialMedia = () => (
   <div className="app__social">
-    <a href="https://www.linkedin.com/in/saleh-al-mashni-264b211a3">
+    <a href="https://www.linkedin.com/in/saleh-almashni/">
       <div className='app__social-linkedin'>
         <BsLinkedin  />
       </div>
