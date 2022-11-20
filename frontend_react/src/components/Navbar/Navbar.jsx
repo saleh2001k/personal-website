@@ -1,12 +1,20 @@
 import React, { useState } from 'react';
 import {HiMenuAlt4 ,HiX} from "react-icons/hi";
 import {motion} from 'framer-motion';
+import useDarkMode from 'use-dark-mode';
+import { DarkModeToggle } from "react-dark-mode-toggle-2";
+
+
+
 
 import {images} from '../../constants';
 import './Navbar.scss';
 
 const Navbar = () => {
   const [toggle,setToggle] = useState(false);
+
+  const [isDarkMode, setIsDarkMode] = React.useState(false);
+
 
   return (
    <nav className="app__navbar">
@@ -25,9 +33,14 @@ const Navbar = () => {
         <li className="app__flex p-text"><div /><a href="#work">projects</a> </li>
         <li className="app__flex p-text"><div /><a href="#skills">skills</a> </li>
         <li className="app__flex p-text"><div /><a href="#contact">contact</a> </li>
-
-
       </ul>
+
+    {/*  <DarkModeToggle className='DarkModeButton'
+      onChange={setIsDarkMode}
+      isDarkMode={isDarkMode} 
+      size={75}
+    />
+   */ }
 
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
