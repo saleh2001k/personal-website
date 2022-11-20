@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {HiMenuAlt4 ,HiX} from "react-icons/hi";
 import {motion} from 'framer-motion';
-import useDarkMode from 'use-dark-mode';
-import { DarkModeToggle } from "react-dark-mode-toggle-2";
+//import useDarkMode from 'use-dark-mode';
+//import { DarkModeToggle } from "react-dark-mode-toggle-2";
 
 
 
