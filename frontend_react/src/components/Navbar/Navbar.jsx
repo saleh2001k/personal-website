@@ -13,7 +13,7 @@ import './Navbar.scss';
 const Navbar = () => {
   const [toggle,setToggle] = useState(false);
 
-  const [isDarkMode, setIsDarkMode] = React.useState(false);
+  //const [isDarkMode, setIsDarkMode] = React.useState(false);
 
 
   return (
